@@ -1,0 +1,98 @@
+/* article */
+
+.article {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.article__text {
+    font-family: MBold;
+}
+
+.article__text_color {
+    color: #31a9fe;
+    font-family: MBold;
+}
+
+/* Sections */
+
+.sections {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections__inner {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections__items {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 270px;
+    flex-wrap: wrap;
+}
+
+.sections__item {
+    display: flex;
+    flex-direction: column; /*column - ставит блоки по вертекали */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* делает курсор */
+}
+
+.sections__img {
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%); /* все обьекты подводит к серому */
+    transition: all 0.3s ease; /* переход с 100% ховера к 0% */
+}
+
+.sections__item:hover .sections__img {
+    filter: grayscale(0%);
+}
+
+.sections__item:hover .sections__text {
+    color: #abb7e0;
+}
+
+.sections__img_center {
+}
+
+.sections__text {
+    font-family: MReg;
+    font-size: 45px;
+    color: #c1c3c8;
+    transition: all 0.3s ease;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__inner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer__text {
+    color: #abb7e0;
+    font-family: MLight;
+}
