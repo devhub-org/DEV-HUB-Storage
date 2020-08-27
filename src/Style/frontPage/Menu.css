@@ -1,0 +1,28 @@
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__inner {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    margin-right: -50em;
+}
+
+.menu__block_first {
+    margin-right: 3em;
+    margin-top: -61px;
+}
+
+.menu__block_second {
+    margin-right: 3em;
+    margin-top: -61px;
+}
+
+.menu__block_third {
+    align-items: flex-end;
+    margin-top: -61px;
+}
