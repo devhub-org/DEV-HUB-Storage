@@ -49,6 +49,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer; /* делает курсор */
+    text-decoration: none;
 }
 
 .sections__img {
@@ -74,6 +75,11 @@
     font-size: 45px;
     color: #c1c3c8;
     transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.sections__link {
+    text-decoration: none;
 }
 
 /* Footer */
