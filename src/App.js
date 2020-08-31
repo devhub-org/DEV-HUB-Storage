@@ -1,10 +1,10 @@
 import React from "react";
-import Index from "./Pages/index";
 import "./Style/Style.css";
+import Index from "./Pages/index";
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <Index />
         </div>
     );
