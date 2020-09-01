@@ -1,11 +1,10 @@
 import React from "react";
-import "./Style/Style.css";
-import Index from "./Pages/index";
+import IndexFront from "./Pages/IndexFront";
 
 function App() {
     return (
         <div>
-            <Index />
+            <IndexFront />
         </div>
     );
 }
