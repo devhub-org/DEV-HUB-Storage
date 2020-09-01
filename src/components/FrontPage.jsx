@@ -22,6 +22,41 @@ function FrontPage() {
                         </div>
                     </div>
                 </div>
+                <div className="content">
+                    <div className="content__post">
+                        <p className="post__text">Название статьи</p>
+                        <img
+                            src="./Image/n.svg"
+                            alt="node"
+                            className="post__img"
+                        />
+                    </div>
+                    <div className="content__post">
+                        <p className="post__text">Название статьи</p>
+                        <img
+                            src="./Image/n.svg"
+                            alt="node"
+                            className="post__img"
+                        />
+                    </div>{" "}
+                    <div className="content__post">
+                        <p className="post__text">Название статьи</p>
+                        <img
+                            src="./Image/n.svg"
+                            alt="node"
+                            className="post__img"
+                        />
+                    </div>
+                    <div className="content__post">
+                        <p className="post__text">Название статьи</p>
+                        <img
+                            src="./Image/n.svg"
+                            alt="node"
+                            className="post__img"
+                        />
+                    </div>
+                    <div className="content__line"></div>
+                </div>
             </div>
         </div>
     );
