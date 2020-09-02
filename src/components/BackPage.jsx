@@ -1,7 +1,7 @@
 import React from "react";
-import "../Style/FrontPage.css";
+import "../Style/BackPage.css";
 
-function FrontPage() {
+function BackPage() {
     return (
         <div className="wrapper">
             <div className="wrapper__inner">
@@ -12,13 +12,13 @@ function FrontPage() {
 
                     <div className="header__menu_item">
                         <div className="menu__item">
+                            <p className="item__text">BACKEND</p>
+                        </div>
+                        <div className="menu__item">
                             <p className="item__text">FRONTEND</p>
                         </div>
                         <div className="menu__item">
                             <p className="item__text">DESIGN</p>
-                        </div>
-                        <div className="menu__item">
-                            <p className="item__text">BACKEND</p>
                         </div>
                     </div>
                 </div>
@@ -26,32 +26,32 @@ function FrontPage() {
                     <div className="content__post">
                         <p className="post__text">Название статьи</p>
                         <img
-                            src="./Image/n.svg"
-                            alt="node"
+                            src="./Image/react_icon.svg"
+                            alt="react"
                             className="post__img"
                         />
                     </div>
                     <div className="content__post">
                         <p className="post__text">Название статьи</p>
                         <img
-                            src="./Image/n.svg"
-                            alt="node"
+                            src="./Image/react_icon.svg"
+                            alt="react"
                             className="post__img"
                         />
                     </div>{" "}
                     <div className="content__post">
                         <p className="post__text">Название статьи</p>
                         <img
-                            src="./Image/n.svg"
-                            alt="node"
+                            src="./Image/react_icon.svg"
+                            alt="react"
                             className="post__img"
                         />
                     </div>
                     <div className="content__post">
                         <p className="post__text">Название статьи</p>
                         <img
-                            src="./Image/n.svg"
-                            alt="node"
+                            src="./Image/react_icon.svg"
+                            alt="react"
                             className="post__img"
                         />
                     </div>
@@ -62,4 +62,4 @@ function FrontPage() {
     );
 }
 
-export default FrontPage;
+export default BackPage;

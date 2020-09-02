@@ -1,10 +1,11 @@
 import React from "react";
 import IndexFront from "./Pages/IndexFront";
+import IndexBack from "./Pages/IndexBack";
 
 function App() {
     return (
         <div>
-            <IndexFront />
+            <IndexBack />
         </div>
     );
 }
