@@ -4,7 +4,7 @@ import FrontPage from "../components/FrontPage";
 function IndexFront() {
     return (
         <div>
-            <FrontPage />
+           <FrontPage />
         </div>
     );
 }

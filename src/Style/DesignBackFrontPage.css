@@ -34,7 +34,7 @@
 .header__menu_item {
     display: flex;
     height: 24px;
-    width: 1250px;
+    width: 1690px;
     gap: 100px;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@
 /* menu */
 
 .content {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,8 @@
 */
 .post__text {
     display: flex;
-    margin-right: 750px; /*bug!!!*/
+    width:840px;
+    margin-right:40px; /*bug!!!*/
     color: #626262;
 }
 
@@ -106,4 +107,11 @@
     border: 1px solid #31a9fe;
     transform: rotate(-0.14deg);
     margin-top: 40px;
+}
+/*линия*/
+.footer-band{
+    margin:0 auto;
+    border-top:4px solid #31a9fe;
+    margin-top:100px;
+    width:1400px;
 }

@@ -1,64 +1,24 @@
 import React from "react";
-import "../Style/FrontPage.css";
+import Search from "./Search";
+import react from "./Image/react.png";
+import angular from "./Image/angular.png";
+import node from "./Image/node.png";
+import vue from "./Image/vue.png";
+import  "../Style/DesignBackFrontPage.css";
+
+
+const FrontList = [
+    { src:react },{src:node},{src:vue},{src:angular}
+]
 
 function FrontPage() {
     return (
-        <div className="wrapper">
-            <div className="wrapper__inner">
-                <div className="wrapper__header">
-                    <p className="header__logo">
-                        <span className="header__logo_color">S</span>TORAGE
-                    </p>
-
-                    <div className="header__menu_item">
-                        <div className="menu__item">
-                            <p className="item__text">FRONTEND</p>
-                        </div>
-                        <div className="menu__item">
-                            <p className="item__text">DESIGN</p>
-                        </div>
-                        <div className="menu__item">
-                            <p className="item__text">BACKEND</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="content__post">
-                        <p className="post__text">Название статьи</p>
-                        <img
-                            src="./Image/n.svg"
-                            alt="node"
-                            className="post__img"
-                        />
-                    </div>
-                    <div className="content__post">
-                        <p className="post__text">Название статьи</p>
-                        <img
-                            src="./Image/n.svg"
-                            alt="node"
-                            className="post__img"
-                        />
-                    </div>{" "}
-                    <div className="content__post">
-                        <p className="post__text">Название статьи</p>
-                        <img
-                            src="./Image/n.svg"
-                            alt="node"
-                            className="post__img"
-                        />
-                    </div>
-                    <div className="content__post">
-                        <p className="post__text">Название статьи</p>
-                        <img
-                            src="./Image/n.svg"
-                            alt="node"
-                            className="post__img"
-                        />
-                    </div>
-                    <div className="content__line"></div>
-                </div>
-            </div>
-        </div>
+        <div>
+        <ul>
+        {FrontList.map(front=><Search src={front.src}/>)}    
+        </ul>
+        <div className="footer-band"></div>   
+    </div>
     );
 }
 

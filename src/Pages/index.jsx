@@ -5,6 +5,7 @@ import "../Style/Index.css";
 import Sections from "../components/Sections";
 import Footer from "../components/Footer";
 
+
 function index() {
     return (
         <>
